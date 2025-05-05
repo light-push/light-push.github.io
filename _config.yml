@@ -1,0 +1,11 @@
+excerpt_separator: <!--more-->
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+url: https://lighhtpush.co
+title: Light Push
+email: 
+author: 
+description: description TODO

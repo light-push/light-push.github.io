@@ -1,0 +1,7 @@
+_site/
+**/.idea/**
+**.user
+**/obj/**
+**/bin/**
+**/packages/**
+/.jekyll-metadata

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css">
+    <link rel="stylesheet" href="/assets/main.css?v=1">
+</head>
+<body>
+
+<!-- Header with navigation -->
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span>Light Push</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#why-us">Why Choose Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <h1>Accelerate Your Digital Initiatives</h1>
+            <p>We provide the momentum needed to transform your ideas into production quickly and efficiently.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </div>
+</header>
+
+{{ content }}
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span>Light Push</span>
+                </div>
+                <p>Providing the momentum needed to transform ideas into production quickly and efficiently.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/company/lightpush/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Light Push OÜ. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
